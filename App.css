@@ -1,0 +1,285 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.navbar {
+    background-color: gold;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.solnavbar {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: arial;
+
+}
+
+.sagnavbar {
+    padding: 30px 20px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.sagnavbar:hover {
+    padding: 40px 30px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/* Ortadaki butonlar için stil */
+.navbar button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    /* Butonların boyutunu büyütür */
+    font-size: 25px;
+    /* Yazı boyutunu büyütür */
+    margin: 0 10px;
+    /* Butonlar arasındaki mesafeyi kısaltır */
+    border-radius: 30px;
+}
+
+.navbar button:hover {
+    padding: 40px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+/* Butonları içeren kapsayıcı */
+.yonlendirmebutonlarim {
+    background-color: rgb(0, 0, 0);
+    margin: 60px auto;
+    /* Sayfanın ortasına almak için */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Yatayda ortalamak için */
+    padding: 20px;
+    /* İçerik alanı için boşluk */
+    border-radius: 10px;
+    /* Köşeleri yuvarlama */
+    max-width: 400px;
+    /* Alanın genişliğini sınırlama */
+}
+
+/* Genel buton stili */
+.button {
+    background-color: #4caf50;
+    /* Yeşilimsi bir arka plan */
+    color: white;
+    /* Yazı rengi */
+    border: none;
+    /* Kenarlık kaldırıldı */
+    border-radius: 5px;
+    /* Köşeleri yuvarlak */
+    padding: 15px 25px;
+    /* Buton boyutları */
+    margin: 0 10px;
+    /* Butonlar arasındaki boşluk */
+    cursor: pointer;
+    /* İmleç değişimi */
+    font-size: 16px;
+    /* Yazı boyutu */
+    font-weight: bold;
+    /* Kalın yazı */
+    transition: all 0.3s ease;
+    /* Hover efektine geçiş */
+}
+
+/* Buton hover efekti */
+.button:hover {
+    background-color: #45a049;
+    /* Daha koyu bir yeşil */
+    transform: scale(1.1);
+    /* Hafif büyütme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Gölge efekti */
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    /* Elemanları dikey sıraya dizer */
+    align-items: center;
+    /* Yatayda ortalar */
+    justify-content: center;
+    /* Dikeyde ortalar */
+    height: 50vh;
+    /* Sayfanın tamamını kaplar */
+    margin-right: 230px;
+
+}
+
+.uyeyazisi {
+    margin-bottom: 5px;
+    /* Altındaki öğeye mesafe bırakır */
+    font-size: 36px;
+    /* Yazı boyutunu büyütmek için */
+    font-weight: bold;
+    /* Yazıyı kalın yapmak için */
+    color: white
+}
+
+.uyeyeri {
+    display: flex;
+    flex-direction: column;
+    /* Girdi alanlarını dikey sıraya dizer */
+    gap: 10px;
+    /* Girdi alanları arasına boşluk bırakır */
+    padding: 50px;
+    width: 15%;
+
+}
+
+.uyeyeri input {
+    width: 300px;
+    /* Genişliği artırır */
+    height: 50px;
+    /* Yüksekliği artırır */
+    padding: 20px;
+    /* İçerik çevresine boşluk ekler */
+    font-size: 25px;
+    /* Yazı boyutunu artırır */
+    border: 5px solid grey;
+    /* Kenarlık ekler */
+    border-radius: 15px;
+    /* Kenarları yuvarlatır */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Hafif bir gölge ekler */
+}
+
+.butonlarkayit {
+    display: flex;
+    flex-direction: row;
+    /* Elemanları dikey sıraya dizer */
+    align-items: center;
+    /* Yatayda ortalar */
+    justify-content: center;
+    /* Dikeyde ortalar */
+    margin-top: 10px;
+    gap: 5px;
+    /* Elemanlar arasında boşluk bırakır */
+}
+
+.butonlarkayit .buton {
+    width: 200px;
+    /* Aynı genişlikte */
+    height: 50px;
+    /* Aynı yükseklikte */
+    background-color: #00ff11;
+    /* Mavi arka plan */
+    color: rgb(0, 0, 0);
+    /* Beyaz yazı */
+    border: none;
+    /* Kenarlık kaldırılır */
+    border-radius: 35px;
+    /* Köşeleri yuvarlatır */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Yazı boyutu */
+    font-size: 13px;
+    text-align: center;
+    /* Yazıyı ortalar */
+    line-height: 50px;
+    /* Dikey ortalama için */
+    cursor: pointer;
+    /* Tıklanabilir hale getirir */
+    transition: 0.3s;
+    /* Hover geçiş efekti */
+}
+
+.butonlarkayit .buton:hover {
+    background-color: #0056b3;
+    /* Hover durumunda arka plan rengi */
+    transform: scale(1.05);
+    /* Hover durumunda büyütme efekti */
+}
+
+
+
+.anadiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Sayfanın ortasında yerleştirmek için */
+    justify-content: center;
+    height: 100vh;
+    /* Sayfanın tamamını kapsayacak şekilde */
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    /* Todo'ları alt alta yerleştirir */
+    align-items: center;
+    /* Kutu şeklinde todo'ları ortalar */
+    width: 100%;
+    /* Genişlik ayarlaması */
+    max-width: 500px;
+    /* Todo listesine genişlik sınırı koyarak çok büyük olmasını engeller */
+    margin-top: 20px;
+    /* Üstten boşluk bırakır */
+}
+
+.inputtodo {
+    display: flex;
+    width: 320px;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #00ff0d;
+    background-color: white;
+    color: #000000;
+    padding: 40px;
+
+
+
+}
+
+.inputbuton {
+    background-color: #000000;
+    /* Kutu arka plan rengi */
+    border: 5px solid #00ff0d;
+    color: white;
+    /* Kutu kenarlığı */
+    padding: 30px 90px;
+    /* İçerik alanına boşluk */
+    margin-top: 10px;
+}
+
+.inputbuton:hover {
+    background-color: #15ff00;
+    /* Kutu arka plan rengi */
+    border: 5px solid #000000;
+    color: white;
+    /* Kutu kenarlığı */
+
+    /* İçerik alanına boşluk */
+    cursor: pointer;
+}
+
+.todo-item {
+    background-color: #f2f2f2;
+    /* Kutu arka plan rengi */
+    border: 1px solid #ccc;
+    /* Kutu kenarlığı */
+    padding: 10px 20px;
+    /* İçerik alanına boşluk */
+    margin: 10px 0;
+    /* Todo'lar arasında boşluk */
+    border-radius: 5px;
+    /* Kutu kenarlarını yuvarlak yapar */
+    width: 100%;
+    /* Kutu genişliği, container genişliğine uyar */
+    box-sizing: border-box;
+    /* Padding ve border ile genişlik hesabı */
+}
